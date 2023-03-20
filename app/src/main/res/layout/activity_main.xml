@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/sensorList_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Sensor List"
+        android:textSize="30sp"
+        android:backgroundTint="#285AD8"
+        />
+
+    <Button
+        android:id="@+id/gravityReading_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Gravity Sensor Reading"
+        android:textSize="30sp"
+        android:backgroundTint="#B3921D"
+        />
+
+    <Button
+        android:id="@+id/lightsSensor_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Light Sensor"
+        android:textSize="30sp"
+        android:backgroundTint="#BD3A12"
+        />
+
+
+
+</LinearLayout>
